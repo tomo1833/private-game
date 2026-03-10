@@ -25,6 +25,38 @@ const games = [
     icon: "⚔️",
     tag: "SRPG",
   },
+  {
+    title: "ドラゴンクエスト風RPG",
+    description: "フィールド探索＋コマンドバトル。レベルアップして魔王を倒せ！",
+    href: "/dragon-quest",
+    accent: "from-yellow-400/30 to-yellow-800/30",
+    icon: "🧙",
+    tag: "RPG",
+  },
+  {
+    title: "村づくり物語",
+    description: "建物を建てて村を発展！資源管理＋ランダムイベントで王国を築け",
+    href: "/village-sim",
+    accent: "from-green-400/30 to-amber-700/30",
+    icon: "🏘️",
+    tag: "SLG",
+  },
+  {
+    title: "Blade of Mana 〜聖剣の伝説〜",
+    description: "見下ろし型アクションRPG。剣と魔法で闇の騎士を倒せ！",
+    href: "/seiken",
+    accent: "from-purple-400/30 to-indigo-700/30",
+    icon: "⚔️",
+    tag: "ARPG",
+  },
+  {
+    title: "影の伝説 ― Shadow of the Ninja",
+    description: "竹林を駆け抜け城に潜入！手裏剣と刀で敵忍者を倒し姫を救え！",
+    href: "/kage",
+    accent: "from-indigo-400/30 to-slate-700/30",
+    icon: "🥷",
+    tag: "ACT",
+  },
 ];
 
 export default function Home() {
@@ -41,7 +73,7 @@ export default function Home() {
               href={game.href}
               className="group rounded-2xl border border-slate-700/80 bg-slate-900/75 p-6 hover:border-cyan-300/70 transition"
             >
-              <div className={`rounded-xl bg-gradient-to-br ${game.accent} p-5`}>
+              <div className={`rounded-xl bg-linear-to-br ${game.accent} p-5`}>
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-2xl">{game.icon}</span>
                   <span className="text-xs font-bold bg-black/30 text-slate-200 rounded px-2 py-0.5">{game.tag}</span>
