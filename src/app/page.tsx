@@ -57,6 +57,30 @@ const games = [
     icon: "🥷",
     tag: "ACT",
   },
+  {
+    title: "ハイパーオリンピック",
+    description: "連打で走れ！100m走・走り幅跳び・やり投げの3種目に挑戦！",
+    href: "/hyper-olympics",
+    accent: "from-yellow-400/30 to-blue-600/30",
+    icon: "🏅",
+    tag: "SPT",
+  },
+  {
+    title: "ときめき学園 〜青春の3年間〜",
+    description: "ときめきメモリアル風恋愛SLG。自分を磨いて運命の人と結ばれよう！",
+    href: "/tokimeki",
+    accent: "from-pink-400/30 to-rose-600/30",
+    icon: "🌸",
+    tag: "SLG",
+  },
+  {
+    title: "CRYSTAL FANTASY",
+    description: "FF風RPG。4人の光の戦士でATB風コマンドバトル！召喚獣で敵を倒せ！",
+    href: "/final-fantasy",
+    accent: "from-blue-400/30 to-purple-700/30",
+    icon: "💎",
+    tag: "RPG",
+  },
 ];
 
 export default function Home() {
